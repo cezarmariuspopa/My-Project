@@ -2,8 +2,8 @@ from requests_api.api_clients import *
 
 class TestApiClient:
     nr = randint(1, 9999999)
-    clientName = 'CiprianTest'
-    clientEmail = f'email_test{nr}@mailinator.com'
+    clientName = 'CezarTest'
+    clientEmail = f'email_test{nr}@xmail.com'
 
     def setup_method(self):
         self.response = login(self.clientName, self.clientEmail)
